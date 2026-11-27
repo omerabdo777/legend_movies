@@ -63,12 +63,12 @@ from aiogram.types import (
 # 2) CONFIGURATION
 # ==========================================================
 
-BOT_NAME = "Legend HD"
+BOT_NAME = "Movies Films Zone"
 BOT_USERNAME = "@Movies_Films_Zone_Bot"
 
 ADMIN_ID = 7432609021
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("8884956189:AAEMB_8W2KGeGZm2nCzFIs8hPkS8y2YNYqk", "")
 
 SUBSCRIPTION_CHANNELS = [
     {
@@ -88,7 +88,7 @@ REQUIRE_SUBSCRIPTION = True
 STORAGE_CHANNEL_NAME = "تخزين مسلسلات"
 STORAGE_CHANNEL_URL = "https://t.me/+_ETOgizzmmBkMWRk"
 
-_storage_id = os.getenv("STORAGE_CHANNEL_ID", "").strip()
+_storage_id = os.getenv("-1006032545154", "").strip()
 STORAGE_CHANNEL_ID = int(_storage_id) if _storage_id else None
 
 RENDER_URL = os.getenv(
@@ -118,7 +118,7 @@ if not WEBHOOK_SECRET_TOKEN:
 # ضع Block ID الجديد الخاص بإعلانات Interstitial في Render Environment.
 # يمكن استخدام معرّف واحد أو معرّفين للتناوب بينهما.
 ADSGRAM_INTERSTITIAL_BLOCK_ID_1 = os.getenv(
-    "ADSGRAM_INTERSTITIAL_BLOCK_ID_1", ""
+    "int-62282", ""
 ).strip()
 ADSGRAM_INTERSTITIAL_BLOCK_ID_2 = os.getenv(
     "ADSGRAM_INTERSTITIAL_BLOCK_ID_2", ""
@@ -131,7 +131,7 @@ ADSGRAM_INTERSTITIAL_BLOCK_IDS = [
 ]
 # Rewarded Ads - separate from Interstitial
 ADSGRAM_REWARDED_BLOCK_ID = os.getenv(
-    "ADSGRAM_REWARDED_BLOCK_ID", ""
+    "reward-62283", ""
 ).strip()
 
 ADSGRAM_REWARD_WEBHOOK_SECRET = os.getenv(

@@ -148,7 +148,7 @@ ADS_ENABLED_DEFAULT = True
 # 4) STORAGE
 # ==========================================================
 
-DATA_DIR = "/var/data"
+DATA_DIR = "data"
 BACKUP_DIR = os.path.join(DATA_DIR, "backups")
 SQLITE_PATH = os.path.join(DATA_DIR, "legend.sqlite3")
 
